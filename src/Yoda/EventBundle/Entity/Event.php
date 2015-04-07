@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Event
  *
- * @ORM\Table()
+ * @ORM\Table(name="yoda_event")
  * @ORM\Entity(repositoryClass="Yoda\EventBundle\Entity\EventRepository")
  */
 class Event
@@ -45,7 +45,7 @@ class Event
     /**
      * @var string
      *
-     * @ORM\Column(name="details", type="text")
+     * @ORM\Column(name="details", type="text", nullable=true)
      */
     private $details;
 
@@ -53,7 +53,7 @@ class Event
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -76,7 +76,7 @@ class Event
     /**
      * Get name
      *
-     * @return string 
+     * @return string
      */
     public function getName()
     {
@@ -99,7 +99,7 @@ class Event
     /**
      * Get time
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getTime()
     {
@@ -122,7 +122,7 @@ class Event
     /**
      * Get location
      *
-     * @return string 
+     * @return string
      */
     public function getLocation()
     {
@@ -145,7 +145,7 @@ class Event
     /**
      * Get details
      *
-     * @return string 
+     * @return string
      */
     public function getDetails()
     {
