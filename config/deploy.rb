@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'symfony-tuto-screencast'
-set :repo_url, 'https://github.com/wrousseau/symfony-tuto-screecast'
+set :repo_url, 'https://github.com/wrousseau/symfony-tuto-screencast'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -35,7 +35,7 @@ set :deploy_to, '/home/ubuntu/symfony-tuto-screencast'
 # set :keep_releases, 5
 
 # Method used to set permissions (:chmod, :acl, or :chgrp)
-set :permission_method,     fetch(':acl')
+set :permission_method,     :acl
 
 # Execute set permissions
 set :use_set_permissions,   true
