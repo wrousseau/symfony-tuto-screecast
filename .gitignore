@@ -1,13 +1,13 @@
-/app/bootstrap.php.cache
-/app/cache/*
-!app/cache/.gitkeep
-/app/config/parameters.yml
-/app/logs/*
-!app/logs/.gitkeep
-/app/phpunit.xml
-/bin/
-/composer.phar
-/vendor/
-/web/bundles/
+/code/app/bootstrap.php.cache
+/code/app/cache/*
+!code/app/cache/.gitkeep
+/code/app/config/parameters.yml
+/code/app/logs/*
+!code/app/logs/.gitkeep
+/code/app/phpunit.xml
+/code/bin/
+/code/composer.phar
+/code/vendor/
+/code/web/bundles/
 
 .DS_Store
