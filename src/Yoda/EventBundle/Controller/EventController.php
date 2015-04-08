@@ -26,7 +26,6 @@ class EventController extends Controller
      */
     public function indexAction()
     {
-        theodo();
         $em = $this->getDoctrine()->getManager();
 
         $entities = $em->getRepository('EventBundle:Event')->findAll();
